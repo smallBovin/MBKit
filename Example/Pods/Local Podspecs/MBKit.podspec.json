@@ -1,6 +1,6 @@
 {
   "name": "MBKit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "基础组件库.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/smallBovin/MBKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/smallBovin/MBKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
