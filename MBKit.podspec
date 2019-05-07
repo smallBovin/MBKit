@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MBKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MBKit.'
+  s.version          = '1.0.0'
+  s.summary          = '基础组件库.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -36,7 +36,22 @@ TODO: Add long description of the pod here.
   #   'MBKit' => ['MBKit/Assets/*.png']
   # }
 
+    s.subspec 'Category' do|ss|
+        ss.source_files = 'MBBaseModule/Classes/Category/*.{h,m}'
+    end
+    s.subspec 'MBAlertView' do|ss|
+        ss.source_files = 'MBBaseModule/Classes/MBAlertView/*.{h,m}'
+    end
+    s.subspec 'RequestTool' do|ss|
+        ss.source_files = 'MBBaseModule/Classes/RequestTool/*.{h,m}'
+        ss.dependency 'MBBaseModule/Category'
+    end
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.frameworks = 'UIKit','Foundation'
+    s.dependency 'AFNetworking', '~> 3.2.1'
+    s.dependency 'MBProgressHUD', '~> 1.1.0'
+    s.dependency 'Masonry', '~> 1.1.0'
 end

@@ -1,0 +1,22 @@
+{
+  "name": "MBKit",
+  "version": "0.1.0",
+  "summary": "A short description of MBKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/smallBovin/MBKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "smallBovin": "bovin150@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/smallBovin/MBKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MBKit/Classes/**/*"
+}
