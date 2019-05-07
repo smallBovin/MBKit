@@ -36,16 +36,16 @@ TODO: Add long description of the pod here.
   #   'MBKit' => ['MBKit/Assets/*.png']
   # }
 
-    s.subspec 'Category' do|ss|
-        ss.source_files = 'MBBaseModule/Classes/Category/*.{h,m}'
-    end
-    s.subspec 'MBAlertView' do|ss|
-        ss.source_files = 'MBBaseModule/Classes/MBAlertView/*.{h,m}'
-    end
-    s.subspec 'RequestTool' do|ss|
-        ss.source_files = 'MBBaseModule/Classes/RequestTool/*.{h,m}'
-        ss.dependency 'MBBaseModule/Category'
-    end
+  # s.subspec 'Category' do|ss|
+  #   ss.source_files = 'MBBaseModule/Classes/Category/*{h,m}'
+  # end
+  # s.subspec 'MBAlertView' do|ss|
+  #     ss.source_files = 'MBBaseModule/Classes/MBAlertView/*.{h,m}'
+  # end
+  # s.subspec 'RequestTool' do|ss|
+  #     ss.source_files = 'MBBaseModule/Classes/RequestTool/*.{h,m}'
+  #     ss.dependency 'MBBaseModule/Category'
+  # end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
