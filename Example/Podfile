@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MBKit_Tests' do
+  pod 'MBKit', :path => '../'
+  
+  
+end
